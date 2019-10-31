@@ -55,16 +55,11 @@ class Cercle
 		Cercle(double r, Point p):c(p)
 		{
 			this->r = r;
-			
-			//this->c = p; // ça marche car les attributs sont simple.
 		}
 		
 		Cercle(double r, double x, double y):c(x,y)
 		{
 			this->r = r;
-			
-//			this->c.setX(x);
-//			this->c.setY(y);
 		}
 		
 		void affiche()
