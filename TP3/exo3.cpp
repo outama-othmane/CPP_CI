@@ -19,14 +19,20 @@ class PileEntier
 		
 		PileEntier& operator = (PileEntier& pile)
 		{
-			this->taille = pile.taille;
-			this->last = pile.last;
-			this->tab = new int [this->taille];
-			
-			for (int i=0; i <= this->last; ++i) 
+			if(&pile != this)
 			{
-				this->tab[i] = pile.tab[i];
+				this->taille = pile.taille;
+				this->last = pile.last;
+				
+				delete this->tab;
+				this->tab = new int [this->taille];
+				
+				for (int i=0; i <= this->last; ++i) 
+				{
+					this->tab[i] = pile.tab[i];
+				}
 			}
+			return *this;
 		}
 };
 
