@@ -55,9 +55,10 @@ void PileEntier::empile(int p)
 		{
 			tab[i] = this->tab[i];
 		}
-
+	
+		delete this->tab;
+		
 		this->tab = new int[++this->taille];
-		delete tab;
 		for (int i = 0; i < this->taille-1; ++i)
 		{
 			this->tab[i] = tab[i];
