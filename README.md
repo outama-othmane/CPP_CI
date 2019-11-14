@@ -26,5 +26,6 @@ Solutions des exercices du C++.
 * [Exercice 0](TP3/exo0.cpp)
 * [Exercice 2](TP3/exo2.cpp)
 * [Exercice 3](TP3/exo3.cpp)
+* [Exercice 4](TP3/exo4.cpp)
 
 [DONATE](#)
