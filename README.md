@@ -28,4 +28,7 @@ Solutions des exercices du C++.
 * [Exercice 3](TP3/exo3.cpp)
 * [Exercice 4](TP3/exo4.cpp)
 
+# [Solutions de TPs N°4](TP4)
+* [Exercice 0](TP4/exo0.cpp)
+
 [DONATE](#)
