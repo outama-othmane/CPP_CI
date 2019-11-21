@@ -10,7 +10,7 @@ class Set_int
 	
 	public: 
 	Set_int(int n=20);
-	~Set_int();
+	//~Set_int();
 	Set_int(const Set_int&);
 	int cardinal()
 	{
@@ -93,4 +93,14 @@ void Set_int::affiche()
 {
 	for(int i=0; i<card; i++)
 		cout << "Element " << i << " = " << tab[i] << endl;
+}
+
+int main()
+{
+	Set_int A(4);
+	A<<1;
+	A<<2;
+	A.affiche();
+	
+	return 0;
 }
