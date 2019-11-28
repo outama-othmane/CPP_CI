@@ -60,16 +60,16 @@ public:
 	
 	PointCol& operator=(const PointCol& p)
 	{	
-		if (this == &p)
+		if (this != &p)
 		{
-			return *this;
+			
+			point::operator=(p);
+			
+			delete couleur;
+			couleur = new char[strlen(p.couleur) + 1];
+			strcpy(couleur, p.couleur);
+			
 		}
-		
-		point::operator=(p);
-		
-		delete couleur;
-		couleur = new char[strlen(p.couleur) + 1];
-		strcpy(couleur, p.couleur);
 		
 		return *this;
 	}
