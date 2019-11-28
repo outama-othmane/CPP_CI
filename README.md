@@ -29,6 +29,8 @@ Solutions des exercices du C++.
 * [Exercice 4](TP3/exo4.cpp)
 
 # [Solutions de TPs N°4](TP4)
-* [Exercice 0](TP4/exo0.cpp)
+* [Exercice 0](TP4/exo0.cpp) "Pas terminer"
+* [Exercice 1](TP4/exo1.cpp)
+* [Exercice 2](TP4/exo2.cpp)
 
 [DONATE](#)

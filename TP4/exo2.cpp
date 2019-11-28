@@ -65,7 +65,7 @@ public:
 			return *this;
 		}
 		
-		operator=(p);
+		point::operator=(p);
 		
 		delete couleur;
 		couleur = new char[strlen(p.couleur) + 1];
