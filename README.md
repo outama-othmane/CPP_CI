@@ -30,7 +30,10 @@ Solutions des exercices du C++.
 
 # [Solutions de TPs N°4](TP4)
 * [Exercice 0](TP4/exo0.cpp) "Pas terminer"
-* [Exercice 1](TP4/exo1.cpp)
+* [Exercice 1](TP4/exo1.cpp) 
 * [Exercice 2](TP4/exo2.cpp)
+* [Exercice 4](TP4/exo4.cpp)
+* [Exercice 4 Question 2](TP4/exo4_question2.cpp)
+* [Exercice 5](TP4/5.cpp)
 
 [DONATE](#)
