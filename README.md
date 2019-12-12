@@ -38,4 +38,7 @@ Solutions des exercices du C++.
 * [Exercice 5 (2eme Approche)](TP4/exo5_approche2.cpp)
 * [Exercice 5 (3eme Approche)](TP4/exo5_approche3.cpp)
 
+# [Solutions de TPs 5](TP5)
+* [Exercice 0](TP5/exo0.cpp)
+
 [DONATE](#)
