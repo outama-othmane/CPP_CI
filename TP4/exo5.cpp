@@ -2,6 +2,12 @@
 
 using namespace std;
 
+/*
+ * La class Vecteur3D<T>
+ * ------------------------------------
+ * Définir une vecteur par son abs, ord et cote
+ * ------------------------------------ 
+ */
 template <typename T> class Vecteur3D
 {
 	T abs, ord, cote;
@@ -20,10 +26,8 @@ template <typename T> class Vecteur3D
 		cout << cote << endl;
 	}
 	
-	//	Si on define les fonctions friend a l'interieur de Vecteur3D le 'warning' disparu.
-	//friend ostream& operator <<(ostream&, Vecteur3D<T>&);
-	
-	//friend istream& operator >>(istream&, Vecteur3D<T>&);
+	T operator*(Vecteur3D<T>);
+	Vecteur3D<T> operator+(Vecteur3D<T>);
 	
 	friend ostream& operator <<(ostream& a, Vecteur3D<T>& vect)
 	{
@@ -49,10 +53,47 @@ template <typename T> class Vecteur3D
 	}
 };
 
+/*
+ * Definir l'opérateur *
+ *
+ * @param Vecteur3D<T> v
+ * @return <T>
+ */
+template<typename T> T Vecteur3D<T>::operator*(Vecteur3D<T> v)
+{
+	return (abs*v.abs + ord*v.ord + cote*v.cote);
+}
+
+/*
+ * Definir l'opérateur +
+ *
+ * @param Vecteur3D<T> v
+ * @return Vecteur3D<T>
+ */
+template<typename T> Vecteur3D<T> Vecteur3D<T>::operator+(Vecteur3D<T> v)
+{
+	Vecteur3D<T> n(abs+v.abs, ord+v.ord, cote+v.cote);
+	return n;
+}
+
+/*
+ * La fonction main
+ * 
+ * @return <int>
+ */
 int main ()
 {
 	Vecteur3D <int> V(1, 2, 3);
-	cout << V;
+	cout << V << endl;
+	
+	Vecteur3D <int> U(4,5, 6);
+	cout << U << endl;
+	
+	Vecteur3D <int> W(1, 2, 3);
+	W = V+U;
+	cout << W << endl;
+	
+	return 0;
 }
 
 

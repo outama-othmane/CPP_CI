@@ -34,6 +34,6 @@ Solutions des exercices du C++.
 * [Exercice 2](TP4/exo2.cpp)
 * [Exercice 4](TP4/exo4.cpp)
 * [Exercice 4 Question 2](TP4/exo4_question2.cpp)
-* [Exercice 5](TP4/5.cpp)
+* [Exercice 5](TP4/exo5.cpp)
 
 [DONATE](#)
