@@ -40,5 +40,7 @@ Solutions des exercices du C++.
 
 # [Solutions de TPs 5](TP5)
 * [Exercice 0](TP5/exo0.cpp)
+* [Exercice 2](TP5/exo2.cpp)
+* [Exercice 3](TP5/exo3.cpp)
 
-[DONATE](#)
+[DONATE 😂🤣](#)
